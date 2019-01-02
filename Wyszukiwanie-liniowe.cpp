@@ -7,7 +7,7 @@
  //============================================================================
 
   #include <iostream>
- #include <cstdlib> //biblioteka potrzebna do wywo³ywania funkcji odpowiedzialnych za pseudolosowosc
+ #include <cstdlib> //biblioteka potrzebna do wywoÅ‚ywania funkcji odpowiedzialnych za pseudolosowosc
  #include <ctime>
  using namespace std;
 
@@ -28,8 +28,8 @@
 
   int main() {
 
-  	srand(time(NULL)); //niezbêdna do generowania przy ka¿dym wywo³aniu aplikacji ró¿nych liczb losowych
- 	int table_size = 40; //Podajemy liczbê tablicy do wygenerowania
+  	srand(time(NULL)); //niezbÄ™dna do generowania przy kaÅ¼dym wywoÅ‚aniu aplikacji rÃ³Å¼nych liczb losowych
+ 	int table_size = 40; //Podajemy rozmiar tablicy, ktÃ³ra bÄ™dzie przechowywaÄ‡ wylosowane liczby
  	int *table = new int[table_size];
  	int search_num=0;
 
